@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Placeholder">
+  <rect width="1200" height="800" fill="#ecfdf5"/>
+  <circle cx="250" cy="200" r="120" fill="#bbf7d0"/>
+  <circle cx="950" cy="620" r="140" fill="#86efac"/>
+  <rect x="220" y="290" width="760" height="260" rx="24" fill="#ffffff" stroke="#16a34a" stroke-width="6"/>
+  <text x="600" y="420" font-size="54" text-anchor="middle" fill="#166534" font-family="Tahoma, Arial">منصة الأمل التعليمية</text>
+</svg>
