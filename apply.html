@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة الأمل التعليمية | التقديم</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">منصة الأمل التعليمية</a>
+      <button class="nav-toggle" aria-label="فتح القائمة">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="scholarships.html">المنح الدراسية</a>
+        <a href="index.html#countries">الدول</a>
+        <a href="index.html#universities">الجامعات</a>
+        <a href="apply.html">التقديم</a>
+        <a href="faq.html">الأسئلة الشائعة</a>
+        <a href="contact.html">تواصل معنا</a>
+      </nav>
+      <a class="btn btn-primary" href="apply.html">ابدأ التقديم</a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>صفحة التقديم المبدئي</h1>
+      <form id="applyForm" class="form" enctype="multipart/form-data">
+        <h2>البيانات الشخصية</h2>
+        <label for="fullName">الاسم الكامل</label>
+        <input id="fullName" name="fullName" type="text" required />
+
+        <label for="phone">الهاتف</label>
+        <input id="phone" name="phone" type="tel" required />
+
+        <label for="email">البريد الإلكتروني</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="dob">تاريخ الميلاد</label>
+        <input id="dob" name="dob" type="date" required />
+
+        <label for="country">اختيار الدولة</label>
+        <select id="country" name="country" required>
+          <option value="">اختر الدولة</option>
+          <option>الصين</option>
+          <option>ألمانيا</option>
+          <option>فرنسا</option>
+          <option>إيطاليا</option>
+          <option>بولندا</option>
+          <option>المجر</option>
+          <option>روسيا</option>
+          <option>تركيا</option>
+        </select>
+
+        <label for="major">اختيار التخصص</label>
+        <select id="major" name="major" required>
+          <option value="">اختر التخصص</option>
+          <option>الطب</option>
+          <option>طب الأسنان</option>
+          <option>الصيدلة</option>
+          <option>التمريض</option>
+          <option>الهندسة</option>
+          <option>علوم الحاسب</option>
+          <option>الذكاء الاصطناعي</option>
+          <option>إدارة الأعمال</option>
+          <option>الاقتصاد</option>
+          <option>القانون</option>
+        </select>
+
+        <h2>رفع المستندات</h2>
+        <label for="identity">الهوية</label>
+        <input id="identity" name="identity" type="file" accept=".pdf,.jpg,.jpeg,.png" required />
+
+        <label for="secondaryCert">الشهادة الثانوية</label>
+        <input id="secondaryCert" name="secondaryCert" type="file" accept=".pdf,.jpg,.jpeg,.png" required />
+
+        <label for="photo">صورة شخصية</label>
+        <input id="photo" name="photo" type="file" accept=".jpg,.jpeg,.png" required />
+
+        <label for="paymentReceipt">ايصال الدفع</label>
+        <input id="paymentReceipt" name="paymentReceipt" type="file" accept=".pdf,.jpg,.jpeg,.png" required />
+
+        <div class="payment-note">
+          <p>ايصال الدفع لرسوم التقديم المبدئي عبر تطبيق "بنكك" حساب رقم 4065157 باسم اسامة ادريس المنصور</p>
+          <p>الرسوم ١٣٤٠٠ جنيه سوداني</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+      </form>
+    </div>
+  </main>
+
+  <div class="modal" id="successModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" type="button" data-close-modal>×</button>
+      <h3>تم استلام طلبك المبدئي بنجاح</h3>
+      <p>هذا تقديم مبدئي لمعرفة نسبة احتمالية القبول ولا يتم التعهد بأي قبول.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <h3>منظمة الأمل التعليمية السودانية</h3>
+      <p>منصة إرشادية تعليمية تهدف إلى دعم الطلاب السودانيين في الوصول إلى الفرص الأكاديمية الدولية.</p>
+      <div class="footer-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="scholarships.html">المنح</a>
+        <a href="apply.html">التقديم</a>
+        <a href="faq.html">الأسئلة الشائعة</a>
+      </div>
+      <small>© 2026 Demo Educational</small>
+    </div>
+  </footer>
+
+  <a class="whatsapp-fab" href="https://wa.me/201212296527" target="_blank" rel="noopener" aria-label="واتساب">واتساب</a>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
